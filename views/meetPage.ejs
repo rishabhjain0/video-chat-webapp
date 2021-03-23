@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Time Chat</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/css/styles1.css">
+    <script>
+        const roomId = "<%=roomID%>";
+        // const roomId = "helloWorld";
+        alert("Share this RoomID with SomeOne"+roomId);
+    </script>  
+    <script src="/socket.io/socket.io.js" defer></script>
+    <script src="/js/config.js" defer></script>
+    <script src="/js/main.js" defer></script>
+
+    <style>
+    </style>
+    
+</head>
+
+<body>
+    <div class="h-100" id="video_display">
+
+        <div id ="video_container" class="align-items-center" style="margin-top: 10%;">
+          <div class="local_div" id="div1" style="">
+                    <video id="localVideo" class="" autoplay muted playsinline></video>
+                </div>
+                <div class="remote_div" id="div2">
+                    <video id="remoteVideo" class="" autoplay playsinline></video>
+                </div>
+        </div>
+    
+      </div>
+</body>
+
+</html>

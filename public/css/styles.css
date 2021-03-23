@@ -1,0 +1,35 @@
+.headingDiv{
+    margin-top: 5%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 2.5rem;
+    width: 60% !important;
+    border-radius: 5px;
+    padding-top: 0.5%;
+}
+.buttonsDiv{
+    margin-top: 10rem;
+    width: 60% !important;
+}
+.popupDiv{
+    width: 310px !important;
+    height: 15rem;
+    background-color: antiquewhite;
+    margin-top: 0px;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+}
+.popupDivChild{
+    margin-top: 27%;
+}
+.submitButtonPopup{
+    margin-top: 5%;
+}
+
+
+
+
+
+	
